@@ -1,0 +1,30 @@
+{
+  "name": "wog",
+  "version": "1.0.0",
+  "description": "Workout Group Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "express",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrloria/WOG.git"
+  },
+  "keywords": [
+    "workout"
+  ],
+  "author": "Domingo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djrloria/WOG/issues"
+  },
+  "homepage": "https://github.com/djrloria/WOG#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  }
+}
